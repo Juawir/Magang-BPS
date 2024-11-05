@@ -1,0 +1,55 @@
+/* .simoketawang-table thead th,
+.simoketawang-table thead {
+  background-color: #a7daff !important;
+  color: #0b588f !important;
+  font-size: 14px;
+  font-weight: 700;
+} */
+
+thead [role="row"] th:last-child,
+tbody tr td:last-child {
+  width: 100px;
+}
+
+.bg-default-100,
+.group[data-focus="true"] .group-data-\[focus\=true\]\:bg-default-100,
+[data-slot="input-wrapper"]:hover {
+  background-color: #ffffff !important;
+}
+
+/* [data-slot="input-wrapper"]:hover,
+[data-slot="input-wrapper"]:focus,
+[data-slot="input-wrapper"]:focus-within,
+[data-slot="input-wrapper"][data-focus="true"] {
+  background-color: #ffffffff !important;
+} */
+
+.simoketawang-sls-search [data-slot="label"],
+.simoketawang-sls-edit [data-slot="label"] {
+  color: #d4ac2b !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  margin: 2px 0 0 2px !important;
+}
+
+.simoketawang-sls-search [data-slot="inner-wrapper"] svg,
+.simoketawang-sls-search [data-slot="input"],
+.simoketawang-sls-search [data-slot="input"]::placeholder {
+  color: #d4ac2b !important;
+}
+
+/* [data-slot="input"] {
+  color: #0b588f !important;
+} */
+
+/* .anticon-inbox {
+  color: #0b588f !important;
+} */
+
+.table-detail-sls th {
+  width: 70% !important;
+}
+
+[data-slot="input"] {
+  color: #000000 !important;
+}

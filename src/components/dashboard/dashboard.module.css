@@ -1,0 +1,183 @@
+.dashboardContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  background-color: #EEF0F2;
+  overflow-y: auto;
+}
+
+.tableContainer {
+  position: relative;
+  margin: 25px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}  
+
+.addButton {
+  background-color: #fcc300;
+  color: white;
+  font-family: Inter;
+  font-weight: 600;
+  border: none;
+  margin: 2% 0px;
+  padding: 7px 18px;
+  border-radius: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #e9b401; /* Darker green on hover */
+}
+
+.addIcon {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.sortableHeader {
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sortableHeader span {
+  margin-right: 5px;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-family: Inter;
+  cursor: pointer;
+}
+
+.table th {
+    background-color: #f07219; /* Green background */
+    color: white;
+    font-weight: 600;
+    position: relative;
+}
+
+.table th span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table th svg {
+  margin-left: 5px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra striping */
+}
+
+.table tr:hover {
+  background-color: #fffcf2; /* Hover effect */
+}
+
+.actionButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #5c1700;
+}
+
+.editIcon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pageButton {
+  background-color: #f2a250;
+    color: white;
+    border: none;
+    margin: 0 5px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pageButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.activePageButton {
+  background-color: #f08619;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  margin-bottom: 7px;
+  display: block;
+  font-weight: 500;
+  font-family: 'Assistant';
+  color: black;
+}
+
+.formGroup input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 13px;
+  background-color: white;
+}
+
+.submitButton {
+  background-color: #fcc300;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: medium;
+  font-weight: 600;
+  font-family: 'Assistant';
+}
+
+.submitButton:hover {
+  animation: ease-in-out;
+}
+
+

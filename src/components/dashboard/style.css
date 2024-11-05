@@ -1,0 +1,13 @@
+.admin-upload .ant-upload-list-item-container,
+.admin-upload .ant-upload-select {
+  background-color: rgb(241, 245, 249) !important;
+  border-radius: 8px !important;
+  border: 2px dashed #d4ac2b !important;
+  font-family: "Inter", sans-serif !important;
+  width: 100% !important;
+}
+
+[data-testid="bars-loading"] {
+  justify-content: center;
+  align-items: center;
+}

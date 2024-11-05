@@ -1,0 +1,103 @@
+.simoketawang-usaha-table [role="row"] th,
+.simoketawang-usaha-table thead [role="row"] {
+  background-color: #f3fdb2 !important;
+  color: #d4ac2b !important;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+thead [role="row"] th:last-child,
+tbody tr td:last-child {
+  width: 100px;
+}
+
+.simoketawang-usaha-table .after\:bg-primary::after {
+  background-color: #d4ac2b !important;
+}
+
+.simoketawang-usaha-table [aria-selected="true"] {
+  background-color: #fdfff3 !important;
+}
+
+.simoketawang-usaha-table [aria-selected="true"] td {
+  color: #d4ac2b !important;
+}
+
+.bg-default-100,
+.group[data-focus="true"] .group-data-\[focus\=true\]\:bg-default-100,
+[data-slot="input-wrapper"]:hover {
+  background-color: #ffffff !important;
+}
+
+/* [data-slot="input-wrapper"]:hover,
+[data-slot="input-wrapper"]:focus,
+[data-slot="input-wrapper"]:focus-within,
+[data-slot="input-wrapper"][data-focus="true"] {
+  background-color: #ffffffff !important;
+} */
+
+.simoketawang-usaha-search [data-slot="label"],
+.simoketawang-usaha-add [data-slot="label"],
+.simoketawang-usaha-edit [data-slot="label"] {
+  color: #d4ac2b !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  margin: 2px 0 0 2px !important;
+}
+
+.simoketawang-usaha-search [data-slot="inner-wrapper"] svg,
+.simoketawang-usaha-search [data-slot="input"],
+.simoketawang-usaha-search [data-slot="input"]::placeholder {
+  color: #d4ac2b !important;
+}
+
+/* [data-slot="input"] {
+  color: #0b588f !important;
+} */
+
+/* .anticon-inbox {
+  color: #0b588f !important;
+} */
+.table-detail-ruta th {
+  width: 55% !important;
+}
+
+[aria-label="Close"] {
+  color: white !important;
+}
+
+[role="button"]:hover {
+  color: #475569 !important;
+}
+
+.ant-picker-input input {
+  height: 36px !important;
+  position: absolute;
+  font-size: 14px;
+  left: 2px;
+  top: 8px;
+}
+
+.ant-picker-input input::placeholder {
+  color: #71717a !important;
+}
+
+.ant-popover-content {
+  font-family: "Inter", sans-serif !important;
+}
+
+.simoketawang-upload .ant-upload-select {
+  background-color: rgb(241, 245, 249) !important;
+  border-radius: 8px !important;
+  border: 2px dashed #d4ac2b !important;
+  font-family: "Inter", sans-serif !important;
+  width: 100% !important;
+}
+
+.simoketawang-upload .ant-upload-list-item-container {
+  width: 100% !important;
+}
+
+.table-detail-usaha th {
+  width: 45% !important;
+}

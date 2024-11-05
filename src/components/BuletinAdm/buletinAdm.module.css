@@ -1,0 +1,194 @@
+/* Container */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Buletin Container */
+.buletinContainer {
+  flex: 1;
+  padding: 20px;
+  background-color: #EEF0F2;
+  overflow-y: auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Table Container */
+.tableContainer {
+  position: relative;
+  margin: 25px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer; /* Pointer cursor for table headers */
+}
+
+.table th {
+  background-color: #f07219; /* Header background color */
+  color: white;
+  font-weight: 600;
+  position: relative;
+}
+
+.table th span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table th svg {
+  margin-left: 5px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Zebra striping */
+}
+
+.table tr:hover {
+  background-color: #fffcf2; /* Hover effect */
+}
+
+/* Action Buttons */
+.actionButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #5c1700;
+}
+
+.editIcon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+/* Add Button */
+.addButton {
+  background-color: #fcc300;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  border: none;
+  margin: 2% 0px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #e9b401; /* Hover effect */
+}
+
+.addIcon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pageButton {
+  background-color: #f2a250;
+  color: white;
+  border: none;
+  margin: 0 5px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pageButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.activePageButton {
+  background-color: #f08619;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+
+.formGroup {
+  margin-bottom: 12px;
+}
+
+.formGroup label {
+  margin-bottom: 7px;
+  display: block;
+  font-weight: 500;
+  font-family: 'Assistant';
+  color: black;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 13px;
+  background-color: white;
+}
+
+.submitButton {
+  background-color: #f08619;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitButton:hover {
+  background-color: #fb6d17;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexColumn {
+  width: 48%; /* Adjust the width if necessary */
+}
+
+.flexColumn label {
+  display: block;
+  margin-bottom: 4px; /* Adjust as needed */
+}
+
+.flexColumn input {
+  width: 100%;
+}
+
